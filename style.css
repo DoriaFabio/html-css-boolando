@@ -63,3 +63,21 @@ header a {
     display: inline-block;
     color: white;
 }
+
+.col {
+    width: calc((100% - 10px)/3);
+    position: relative;
+}
+.row {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.col img {
+    width: 100%;
+    display: block;
+}
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
