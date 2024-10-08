@@ -12,9 +12,6 @@
     --dark: #1A1A1A;
 }
 
-.debug {
-    border: 2px solid black;
-}
 
 /* Container */
 .container {
@@ -138,4 +135,7 @@ p {
     padding: 10px 15px;
     background-color: white;
     font-size: 30px;
+}
+.line {
+    line-height: 0.7;
 }
