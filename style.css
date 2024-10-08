@@ -20,6 +20,7 @@
 .container {
     margin: 0 auto;
     max-width: 1200px;
+    padding: 20px 0px;
 }
 
 /* Sfondi e colori testo */
@@ -58,7 +59,7 @@ ul {
     gap: 10px;
 }
 
-header a {
+a {
     text-decoration: none;
     display: inline-block;
     color: white;
@@ -80,4 +81,16 @@ header a {
 main {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+header img {
+    width: auto;
+    height: 30px;
+}
+footer h3, h4 {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.icon {
+    font-size: 20px;
+    padding-right: 7px;
 }
