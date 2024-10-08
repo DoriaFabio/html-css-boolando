@@ -1,5 +1,65 @@
+/* Impostazioni generali */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --orange: #FF6900;
+    --red: #FF0000;
+    --green: #008000;
+    --dark: #1A1A1A;
+}
+
+.debug {
+    border: 2px solid black;
+}
+
+/* Container */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Sfondi e colori testo */
+.bkg-orange {
+    background-color: var(--orange);
+}
+
+.bkg-dark {
+    background-color: var(--dark);
+}
+
+.txt-white {
+    color: white;
+}
+
+/* Impostazioni flex */
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.align-items {
+    align-items: center;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    gap: 10px;
+}
+
+header a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
 }
