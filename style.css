@@ -97,7 +97,7 @@ ul {
 /* Ancora */
 a {
     text-decoration: none;
-    display: inline-block;
+    display: block;
     color: white;
 }
 
